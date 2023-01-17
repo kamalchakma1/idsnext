@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* === MAIN CONTAINER === */
+.main{
+    align-items: center;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    height: 550px;
+    margin: 70px 0 0 50px;
+    width: 95%;
+}
+
+/* === HEADER == */
+.main__header{
+    font-size: 16px;
+    position: absolute;
+    top: 90px;
+    left: 95px;
+}
+
+/* === IDSNEXT TITLE === */
+.idsnextTitle{
+    color: #fc9970;
+    position: absolute;
+    top: 40px;
+    left: 95px;
+}
+
+/* === FORM === */
+.main__enterData{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px 2px rgb(222, 222, 222);
+    border-radius: 3px;
+    height: 450px;
+    margin-top: 10px;
+    width: 45%;
+}
+.main__enterData__form{
+    color: rgb(196, 196, 196);    
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    justify-content: center;
+}
+.main__enterData__form>label{
+    margin: 40px 0 0 50px;  
+}
+
+/* === INPUTS === */
+.main__enterData__form>input,select{
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    height: 35px;
+    padding-left: 10px;
+    margin: 10px 0 0 50px;
+    width: 80%;
+}
+.main__enterData__form>input:focus{
+    outline: none;
+}
+
+/* === DESIGNATION === */
+.main__select{
+    position: relative;
+}
+.main__select select{
+    border: 1px solid rgb(200, 200, 200);
+    height: 35px;
+    width: 80%;
+}
+.main__select select:focus{
+    outline: none;
+}
+
+/* === DATA DISPLAY === */
+.main__displayData{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px 2px rgb(222, 222, 222);
+    border-radius: 3px;
+    min-height: 450px;
+    margin-top: 10px;
+    width: 45%;
+}
+.main__displayData>table>tr>td>i{
+    color: #fc7a45;
+}
+.main__displayData__edit{
+    position: relative;
+    top: 5px;
+    width: 22px;
+}
+
+/* === BUTTONS === */
+.main__buttons{
+    align-items: center;    
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 80px;
+    margin: 30px 0 0 80px;
+    width: 370px;
+}
+.main__buttons>button{
+    border: 1px solid #fdbfa6;
+    border-radius: 4px;
+    background-color: inherit;
+    color: #fc7a45;
+    height: 50px;
+    width: 150px;
+}
+.main__buttons>button:hover{
+    background-color: #fc7a45;
+    color: #fff;
+}
+
+/* === TABLE (DATA DISPLAY) === */
+.main__displayData>table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.main__displayData>table>tr>th{
+    font-size: 14px;
+   text-align: left;
+    background-color: #e6e6e6;
+}
+.main__displayData>table,th,td{
+    border-bottom: 2px solid rgba(200, 200, 200, 0.42);
+    padding-left: 20px;
+    height: 50px;
+}

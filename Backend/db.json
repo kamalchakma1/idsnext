@@ -1,0 +1,28 @@
+{
+  "datas": [
+    {
+      "name": "John Smith",
+      "designation": "Manager",
+      "salary": "10000",
+      "id": 1
+    },
+    {
+      "name": "Andrewson",
+      "designation": "IT Manager",
+      "salary": "20000",
+      "id": 2
+    },
+    {
+      "name": "Joe Smith",
+      "designation": "Developer",
+      "salary": "34000",
+      "id": 3
+    },
+    {
+      "name": "kiran",
+      "designation": "Manager",
+      "salary": "20000",
+      "id": 6
+    }
+  ]
+}
